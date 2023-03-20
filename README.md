@@ -1,3 +1,3 @@
 # Portfolio-site
 
-live at ![https://alokpsingh-portfolio.vercel.app/]
+live at https://alokpsingh-portfolio.vercel.app/
