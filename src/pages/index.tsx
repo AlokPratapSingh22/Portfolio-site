@@ -48,6 +48,7 @@ export default function Home({
       </div>
       <Head>
         <title>Alok Portfolio</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <div className={inter.className}>
         <Header socials={socials} />
@@ -89,7 +90,7 @@ export default function Home({
               </div>
             </div>
           </Link>
-          <div className="h-[60px] w-[150px] sm:h-[80px] sm:w-[300px] md:max-h-[100px] flex flex-row">
+          <div className="h-[60px] sm:mb-3 w-[150px] sm:h-[80px] sm:w-[300px] md:max-h-[100px] flex flex-row">
             <div className="download">
               <Link
                 href="/AlokCV.pdf"
