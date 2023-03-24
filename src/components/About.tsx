@@ -21,7 +21,7 @@ function About({ pageInfo, experiences }: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="w-full max-w-[1152px] pb-32 mx-auto px-4 mb-40 relative z-10 "
+      className="w-full max-w-[1152px] pb-52 mx-auto px-4 mb-40 relative z-10 border-b-0"
     >
       <div className="tabs-container w-full flex flex-row justify-start items-start">
         <div className="nav-wrap md:w-12 md:h-[480px] sticky md:top-[calc(50%-540px)] md:-mt-5 mb-10 w-8 h-[518px] flex flex-col justify-between top-[42px] mt-[42px]">
