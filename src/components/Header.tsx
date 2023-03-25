@@ -34,7 +34,7 @@ export const Header = ({ socials }: Props) => {
         }}
         animate={{ rotateX: 0, rotateZ: 0, rotateY: 0 }}
         transition={{ duration: 1, bounce: 0.5 }}
-        className="thecard flex justify-center items-center z-30 left-5 sm:left-1/2 mx-auto"
+        className="thecard flex justify-center items-center z-30 absolute left-5 sm:left-1/2 mx-auto"
       >
         <div className="thefront">
           <motion.img
