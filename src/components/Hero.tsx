@@ -34,6 +34,7 @@ function Hero({ pageInfo }: Props) {
         </div>
       </div>
       <BgCircles />
+
       <Image
         src={urlFor(pageInfo?.heroImage).url()}
         alt="Mine"
@@ -41,6 +42,7 @@ function Hero({ pageInfo }: Props) {
         width={200}
         height={200}
       />
+
       <div className="z-20">
         <h2 className="text-xs md:text-sm uppercase text-gray-300 opacity-90 pb-2 tracking-[8px] sm:tracking-[15px]">
           {pageInfo?.role}

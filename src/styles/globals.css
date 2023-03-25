@@ -367,3 +367,16 @@
     width: 28px;
   }
 }
+
+.thefront:hover {
+  animation: flip 0.5s ease;
+}
+
+@keyframes flip {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -17,6 +17,7 @@ import { Chakra_Petch, Inter } from "next/font/google";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { urlFor } from "../../sanity";
 import { Experience, PageInfo, Project, Skill, Social } from "../../typings";
 
 type Props = {
@@ -73,12 +74,12 @@ export default function Home({
           <ContactMe />
         </section>
 
-        <footer className="sticky bottom-5 z-20 flex flex-row justify-between items-center">
+        <footer className="sticky bottom-10 sm:bottom-5 z-20 flex flex-row justify-between items-center">
           <Link href="#hero">
             <div className="w-full cursor-pointer flex flex-row justify-center items-center">
               <div>
                 <Image
-                  src="/Me.png"
+                  src={urlFor(pageInfo.heroImage).url()}
                   alt="ph"
                   height={40}
                   width={40}
@@ -90,7 +91,7 @@ export default function Home({
               </div>
             </div>
           </Link>
-          <div className="h-[60px] sm:mb-3 w-[150px] sm:h-[80px] sm:w-[300px] md:max-h-[100px] flex flex-row">
+          <div className="h-[60px] mb-3 w-[150px] sm:h-[80px] sm:w-[300px] md:max-h-[100px] flex flex-row">
             <div className="download">
               <Link
                 href="/AlokCV.pdf"
